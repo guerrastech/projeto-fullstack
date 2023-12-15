@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Estilo da tela de login */
+.telaLogin{
+    font-family: 'Poppins', sans-serif;    
+    background-image: linear-gradient(to right, rgb(20,147,220), rgb(17,54,71));
+}
+
+.dados-login{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+.dados-login input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.dados-login .inputSubimit{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.dados-login .inputSubimit:hover{
+    background-color: deepskyblue;
+}
+
+
+/* Estilo da tela-de-cadastro */
+
+.tela-cadastro{
+    font-family: 'Poppins', sans-serif;  
+    background-image: linear-gradient(to right, rgb(20,147,220), rgb(17,54,71));
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    color: #fff;
+}
+
+fieldset{
+    border: 3px solid dodgerblue;
+}
+
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+
+.input-box{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.label_input{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .label_input,
+.inputUser:valid ~.label_input{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+
+#nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit{
+    background-image: linear-gradient(to right, rgb(0,92,197), rgb(90,20,220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(0,80,172), rgb(80,19,195));
+}
+
+
+/* Estilo da tela Home */
+
+.tela-home{
+    font-family: 'Poppins', sans-serif;    
+    background-image: linear-gradient(to right, rgb(20,147,220), rgb(17,54,71));
+    text-align: center;
+    color: white;
+}
+
+.tela-home .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.tela-home .box a{
+    text-decoration: none;
+    color: white;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tela-home .box a:hover{
+    background-color: dodgerblue;
+}
+
+
+/* Estilo Tela Sistema*/
+
+.tela-sistema{
+    background-image: linear-gradient(to right, rgb(20,147,220), rgb(17,54,71));
+    text-align: center;
+    color: white;
+}
+
+.table-bg{
+    background: rgba(0,0,0,0.3);
+}
+
+
+
+#update{
+    background-image: linear-gradient(to right, rgb(0,92,197), rgb(90,20,220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#update:hover{
+    background-image: linear-gradient(to right, rgb(0,80,172), rgb(80,19,195));
+}
+
+
+.box-searche{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: .1%;
+}
